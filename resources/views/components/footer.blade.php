@@ -41,9 +41,9 @@
                                 <h3 class="text-light mb-0">クイックリンク</h3>
                             </div>
                             <div class="link-animated d-flex flex-column justify-content-start">
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>ホーム</a>
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>このサイトについて</a>
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>サービス</a>
+                                <a class="text-light mb-2" href="/"><i class="bi bi-arrow-right text-primary me-2"></i>ホーム</a>
+                                <a class="text-light mb-2" href="/about"><i class="bi bi-arrow-right text-primary me-2"></i>このサイトについて</a>
+                                <a class="text-light mb-2" href="/service"><i class="bi bi-arrow-right text-primary me-2"></i>サービス</a>
                                 <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>お問合せ</a>
                             </div>
                         </div>
@@ -52,11 +52,9 @@
                                 <h3 class="text-light mb-0">Popular Links</h3>
                             </div>
                             <div class="link-animated d-flex flex-column justify-content-start">
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Meet The Team</a>
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
+                                <a class="text-light mb-2" href="/"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                                <a class="text-light mb-2" href="/about"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                                <a class="text-light mb-2" href="/service"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
                                 <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
                             </div>
                         </div>

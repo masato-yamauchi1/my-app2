@@ -32,7 +32,7 @@
     <!-- Navbar Start -->
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
-            <a href="index.html" class="navbar-brand p-0">
+            <a href="/" class="navbar-brand p-0">
                 <h1 class="m-0"><i class="fa fa-user-tie me-2"></i>テストサイト</h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -46,9 +46,9 @@
                     <a href="/" class="nav-item nav-link">ホーム</a>
                     @endif
                     @if($active =="about")
-                    <a href="about.html" class="nav-item nav-link active">このサイトについて</a>
+                    <a href="/about" class="nav-item nav-link active">このサイトについて</a>
                     @else
-                    <a href="about.html" class="nav-item nav-link">このサイトについて</a>
+                    <a href="/about" class="nav-item nav-link">このサイトについて</a>
                     @endif
                     @if($active =="service")
                     <a href="/service" class="nav-item nav-link active">サービス</a>
