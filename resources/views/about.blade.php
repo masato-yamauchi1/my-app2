@@ -6,7 +6,7 @@
     
     <!-- Service Start -->
     <x-header>
-        <x-slot name="active">service</x-slot>
+        <x-slot name="active">about</x-slot>
         <x-slot name="header_title">このサイトについて</x-slot>
         <x-slot name="target_title">このサイトについて</x-slot>
     </x-header>
