@@ -15,7 +15,7 @@
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
                 <h5 class="fw-bold text-primary text-uppercase">このサイトについて</h5>
-                <h1 class="mb-0" style="font-size:200%;">Lravel10とBootstrap5の<span class="br">テストサイトです</span></h1>
+                <h1 class="mb-0" style="font-size:200%;">Lravel10とBootstrap5、Vue.jsの<span class="br">テストサイトです</span></h1>
             </div>
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">

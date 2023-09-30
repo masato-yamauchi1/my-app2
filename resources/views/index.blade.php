@@ -47,7 +47,7 @@
                     <a href="/" class="nav-item nav-link active">ホーム</a>
                     <a href="/about" class="nav-item nav-link">このサイトについて</a>
                     <a href="/service" class="nav-item nav-link">サービス</a>
-                    <a href="contact.html" class="nav-item nav-link">お問合せ</a>
+                    <a href="/contact" class="nav-item nav-link">お問合せ</a>
                 </div>
                 <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
                 <!-- <a href="https://htmlcodex.com/startup-company-website-template" class="btn btn-primary py-2 px-4 ms-3">Download Pro Version</a> -->
@@ -62,7 +62,7 @@
                         <div class="p-3" style="max-width: 850px;">
                             <h5 class="text-white text-uppercase mb-3 animated slideInDown">Creative & Innovative</h5>
                             <h1 class="display-1 text-white mb-md-4 animated zoomIn">創造的<span style="font-size:70%">かつ</span>革新的<span style="font-size:70%">な</span><span class="br" style="font-size:70%;">デジタルソリューション</span></h1>
-                            <a href="" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">お問合せ</a>
+                            <a href="/contact" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">お問合せ</a>
                         </div>
                     </div>
                 </div>
@@ -72,7 +72,7 @@
                         <div class="p-3" style="max-width: 900px;">
                             <h5 class="text-white text-uppercase mb-3 animated slideInDown">Creative & Innovative</h5>
                             <h1 class="display-1 text-white mb-md-4 animated zoomIn">テストサイトです<span class="br" style="font-size:70%">実在しません！ご注意を</span></h1>
-                            <a href="" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">お問合せ</a>
+                            <a href="/contact" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">お問合せ</a>
                         </div>
                     </div>
                 </div>

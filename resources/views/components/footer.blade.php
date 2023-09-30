@@ -44,7 +44,7 @@
                                 <a class="text-light mb-2" href="/"><i class="bi bi-arrow-right text-primary me-2"></i>ホーム</a>
                                 <a class="text-light mb-2" href="/about"><i class="bi bi-arrow-right text-primary me-2"></i>このサイトについて</a>
                                 <a class="text-light mb-2" href="/service"><i class="bi bi-arrow-right text-primary me-2"></i>サービス</a>
-                                <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>お問合せ</a>
+                                <a class="text-light" href="/contact"><i class="bi bi-arrow-right text-primary me-2"></i>お問合せ</a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
@@ -55,7 +55,7 @@
                                 <a class="text-light mb-2" href="/"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
                                 <a class="text-light mb-2" href="/about"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
                                 <a class="text-light mb-2" href="/service"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
-                                <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                                <a class="text-light" href="/contact"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
                             </div>
                         </div>
                     </div>

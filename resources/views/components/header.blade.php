@@ -56,9 +56,9 @@
                     <a href="/service" class="nav-item nav-link">サービス</a>
                     @endif
                     @if($active =="contact")
-                    <a href="contact.html" class="nav-item nav-link active">お問合せ</a>
+                    <a href="/contact" class="nav-item nav-link active">お問合せ</a>
                     @else
-                    <a href="contact.html" class="nav-item nav-link">お問合せ</a>
+                    <a href="/contact" class="nav-item nav-link">お問合せ</a>
                     @endif
                 </div>
                 <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
@@ -69,7 +69,7 @@
             <div class="row py-5">
                 <div class="col-12 pt-lg-5 mt-lg-5 text-center">
                     <h1 class="display-4 text-white animated zoomIn">{{$header_title}}</h1>
-                    <a href="" class="h5 text-white">ホーム</a>
+                    <a href="/" class="h5 text-white">ホーム</a>
                     <i class="far fa-circle text-white px-2"></i>
                     <a href="" class="h5 text-white">{{$target_title}}</a>
                 </div>
