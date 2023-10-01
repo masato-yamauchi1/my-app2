@@ -499,3 +499,7 @@ h6,
 body,h1,h2,h3,h4,h5 {
 	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
 }
+
+.form_error_str {
+    color: #dd0f3b;
+ }

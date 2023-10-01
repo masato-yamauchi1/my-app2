@@ -52,21 +52,56 @@
                     </div>
                 </div>
             </div>
-            <div class="row g-5">
+            <div class="row g-5" id="app">
                 <div class="col-lg-6 wow slideInUp ms-auto me-auto" data-wow-delay="0.3s" style="width:80%;">
-                    <form>
+                    <form @submit.prevent="submitForm" action="/contact" method="post">
+                    @csrf
                         <div class="row g-3">
                             <div class="col-md-6">
-                                <input type="text" class="form-control border-0 bg-light px-4" placeholder="お名前" name="name" id="name" style="height: 55px;">
+                                <input type="text" 
+                                    class="form-control border-0 bg-light px-4" 
+                                    placeholder="お名前" 
+                                    name="name" 
+                                    v-model="name" 
+                                    @blur="$v.name.$touch()" 
+                                    style="height: 55px;">
+                                <p v-if="!$v.name.required" class="form_error_str">必須項目です</p>
+                                <p v-if="!$v.name.maxLength" class="form_error_str">20文字以下で入力してください</p>
                             </div>
                             <div class="col-md-6">
-                                <input type="email" class="form-control border-0 bg-light px-4" placeholder="メールアドレス" name="mail" id="mail" style="height: 55px;">
+                                <input 
+                                    type="email" 
+                                    class="form-control border-0 bg-light px-4" 
+                                    placeholder="メールアドレス" 
+                                    name="mail" 
+                                    v-model="mail" 
+                                    @blur="$v.email.$touch()" 
+                                    style="height: 55px;">
+                                <p v-if="!$v.mail.required" class="form_error_str">必須項目です</p>
+                                <p v-if="!$v.mail.email" class="form_error_str">メールアドレスの形式が正しくありません</p>
+                                <p v-if="!$v.mail.maxLength" class="form_error_str">200文字以下で入力してください</p>
+                            </div>
+                            
+                            <div class="col-12">
+                                <input type="text" 
+                                class="form-control border-0 bg-light px-4" 
+                                placeholder="タイトル" 
+                                name="title" 
+                                v-model="title" 
+                                @blur="$v.title.$touch()" 
+                                style="height: 55px;">
+                                <p v-if="!$v.title.required" class="form_error_str">必須項目です</p>
+                                <p v-if="!$v.title.maxLength" class="form_error_str">100文字以下で入力してください</p>
                             </div>
                             <div class="col-12">
-                                <input type="text" class="form-control border-0 bg-light px-4" placeholder="タイトル" name="title" id="title" style="height: 55px;">
-                            </div>
-                            <div class="col-12">
-                                <textarea class="form-control border-0 bg-light px-4 py-3" rows="8" placeholder="本文" name="body" id="body"></textarea>
+                                <textarea 
+                                    class="form-control border-0 bg-light px-4 py-3" 
+                                    rows="8" 
+                                    placeholder="本文" 
+                                    name="body" 
+                                    @blur="$v.body.$touch()" 
+                                    v-model="body"></textarea>
+                                <p v-if="!$v.body.maxLength" class="form_error_str">1000文字以下で入力してください</p>
                             </div>
                             <div class="col-12">
                                 <button class="btn btn-primary w-100 py-3" type="submit">メッセージを送信</button>
@@ -78,7 +113,7 @@
         </div>
     </div>
     <!-- Contact End -->
-
+    <script src="/js/contact.js"></script>
 
     <!-- Vendor Start -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
