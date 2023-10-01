@@ -4,7 +4,9 @@
 <head>
     <meta charset="utf-8">
     <title>{{$title}}</title>
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @if($title =='bootstrat5 テストサイト お問合せ')
+    <script src="https://unpkg.com/vue@2.6.14/dist/vue.min.js"></script>
+    @endif
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">

@@ -57,16 +57,16 @@
                     <form>
                         <div class="row g-3">
                             <div class="col-md-6">
-                                <input type="text" class="form-control border-0 bg-light px-4" placeholder="お名前" style="height: 55px;">
+                                <input type="text" class="form-control border-0 bg-light px-4" placeholder="お名前" name="name" id="name" style="height: 55px;">
                             </div>
                             <div class="col-md-6">
-                                <input type="email" class="form-control border-0 bg-light px-4" placeholder="メールアドレス" style="height: 55px;">
+                                <input type="email" class="form-control border-0 bg-light px-4" placeholder="メールアドレス" name="mail" id="mail" style="height: 55px;">
                             </div>
                             <div class="col-12">
-                                <input type="text" class="form-control border-0 bg-light px-4" placeholder="タイトル" style="height: 55px;">
+                                <input type="text" class="form-control border-0 bg-light px-4" placeholder="タイトル" name="title" id="title" style="height: 55px;">
                             </div>
                             <div class="col-12">
-                                <textarea class="form-control border-0 bg-light px-4 py-3" rows="8" placeholder="本文"></textarea>
+                                <textarea class="form-control border-0 bg-light px-4 py-3" rows="8" placeholder="本文" name="body" id="body"></textarea>
                             </div>
                             <div class="col-12">
                                 <button class="btn btn-primary w-100 py-3" type="submit">メッセージを送信</button>
